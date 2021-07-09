@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url('images/istock\ photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    height: 500px;
+    width: 400px;
+    background-image: url('images/istock\ photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 1px 5px 5px 1px #2c2525;
+}
+
+#container h2 {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+
+#container h1 {
+    text-align: center;
+    font-size: 10rem;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    right: 30%;
+    color: #008000;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    bottom: 12%;
+    left: 65px;
+}
+
+#buttons button {
+    height: 3.125em;
+    width: 8em;
+    background: #052349;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #191c2130;
+    cursor: pointer;
+    padding: .5em;
+    margin-bottom: 1em;
+    box-shadow: 1px 3px 5px 1px #2c2525;
+}
+
+#buttons button#LOWER_COUNT {
+    width: 10em;
+}
+
+button:hover,
+button:focus {
+    opacity: .75;
+}
